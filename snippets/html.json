@@ -1,0 +1,454 @@
+{
+    "html模板（根目录）": {
+        "prefix": "mb1",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<!DOCTYPE html>",
+            "<!--Made with ❤ by XUANZHI-->",
+            "<!--该页面已接入百度统计-->",
+            "<html>",
+            "",
+            "<head>",
+            "  <meta charset=\"UTF-8\">",
+            "  <meta name=\"theme-color\" content=\"#e9f1e9\">",
+            "  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "  <title>${1:xuanzhi33.cn}</title>",
+            "  <!-- Bootstrap -->",
+            "  <link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "  <link href=\"./css/x-az.css\" rel=\"stylesheet\">",
+            "  <link rel=\"icon\" href=\"./favicon.ico\">",
+            "  <script>",
+            "    var _hmt = _hmt || [];",
+            "    (function () {",
+            "      var hm = document.createElement(\"script\");",
+            "      hm.src = \"https://hm.baidu.com/hm.js?2a6aca6b85659d07cf5d9e5417c4a5f5\";",
+            "      var s = document.getElementsByTagName(\"script\")[0];",
+            "      s.parentNode.insertBefore(hm, s);",
+            "    })();",
+            "  </script>",
+            "</head>",
+            "",
+            "<body>",
+            "<br class=\"brBefore\">",
+            "<br class=\"brBefore\">",
+            "  <div class=\"container\">",
+            "    <div class=\"card glass\"> <br>",
+            "      <div class=\"container\">",
+            "        <h1 class=\"text-center\">$1</h1>",
+            "        $0",
+            "      </div>",
+            "      <br>",
+            "    </div>",
+            "  </div>",
+            "  <br>",
+            "  <br>",
+            "</body>",
+            "",
+            "</html>"
+        ]
+    },
+    "html模板（站外）": {
+        "prefix": "mb0",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<!DOCTYPE html>",
+            "<!--Made with ❤ by XUANZHI-->",
+            "<!--该页面已接入百度统计-->",
+            "<html>",
+            "",
+            "<head>",
+            "  <meta charset=\"UTF-8\">",
+            "  <meta name=\"theme-color\" content=\"#e9f1e9\">",
+            "  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "  <title>${1:xuanzhi33.cn}</title>",
+            "  <!-- Bootstrap -->",
+            "  <link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "  <link href=\"https://www.xuanzhi33.cn/css/x-az.css\" rel=\"stylesheet\">",
+            "  <link rel=\"icon\" href=\"https://www.xuanzhi33.cn/favicon.ico\">",
+            "  <script>",
+            "    var _hmt = _hmt || [];",
+            "    (function () {",
+            "      var hm = document.createElement(\"script\");",
+            "      hm.src = \"https://hm.baidu.com/hm.js?2a6aca6b85659d07cf5d9e5417c4a5f5\";",
+            "      var s = document.getElementsByTagName(\"script\")[0];",
+            "      s.parentNode.insertBefore(hm, s);",
+            "    })();",
+            "  </script>",
+            "</head>",
+            "",
+            "<body>",
+            "<br class=\"brBefore\">",
+            "<br class=\"brBefore\">",
+            "  <div class=\"container\">",
+            "    <div class=\"card glass\"> <br>",
+            "      <div class=\"container\">",
+            "        <h1 class=\"text-center\">$1</h1>",
+            "        $0",
+            "      </div>",
+            "      <br>",
+            "    </div>",
+            "  </div>",
+            "  <br>",
+            "  <br>",
+            "</body>",
+            "",
+            "</html>"
+        ]
+    },
+    "html模板（二级目录）": {
+        "prefix": "mb2",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<!DOCTYPE html>",
+            "<!--Made with ❤ by XUANZHI-->",
+            "<!--该页面已接入百度统计-->",
+            "<html>",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"theme-color\" content=\"#e9f1e9\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "<title>${1:xuanzhi33.cn}</title>",
+            "<!-- Bootstrap -->",
+            "<link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "<link href=\"../css/x-az.css\" rel=\"stylesheet\">",
+            "<link rel=\"icon\" href=\"../favicon.ico\">",
+            "<script>",
+            "var _hmt = _hmt || [];",
+            "(function() {",
+            "  var hm = document.createElement(\"script\");",
+            "  hm.src = \"https://hm.baidu.com/hm.js?2a6aca6b85659d07cf5d9e5417c4a5f5\";",
+            "  var s = document.getElementsByTagName(\"script\")[0]; ",
+            "  s.parentNode.insertBefore(hm, s);",
+            "})();",
+            "</script>",
+            "</head>",
+            "<body>",
+            "<br class=\"brBefore\">",
+            "<br class=\"brBefore\">",
+            "<div class=\"container\">",
+            "  <div class=\"card glass\"> <br>",
+            "    <div class=\"container\">",
+            "    <h5><a href=\"../$2\" class=\"backBtn\">返回</a></h5>",
+            "      <h1 class=\"text-center\">$1</h1><br>",
+            "      $0",
+            "    </div>",
+            "    <br>",
+            "  </div>",
+            "</div>",
+            "<br>",
+            "<br>",
+            "</body>",
+            "</html>"
+        ]
+    },
+    "html模板（三级目录）": {
+        "prefix": "mb3",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<!DOCTYPE html>",
+            "<!--Made with ❤ by XUANZHI-->",
+            "<!--该页面已接入百度统计-->",
+            "<html>",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"theme-color\" content=\"#e9f1e9\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "<title>${1:xuanzhi33.cn}</title>",
+            "<!-- Bootstrap -->",
+            "<link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "<link href=\"../../css/x-az.css\" rel=\"stylesheet\">",
+            "<link rel=\"icon\" href=\"../../favicon.ico\">",
+            "<script>",
+            "var _hmt = _hmt || [];",
+            "(function() {",
+            "  var hm = document.createElement(\"script\");",
+            "  hm.src = \"https://hm.baidu.com/hm.js?2a6aca6b85659d07cf5d9e5417c4a5f5\";",
+            "  var s = document.getElementsByTagName(\"script\")[0]; ",
+            "  s.parentNode.insertBefore(hm, s);",
+            "})();",
+            "</script>",
+            "</head>",
+            "<body>",
+            "<br class=\"brBefore\">",
+            "<br class=\"brBefore\">",
+            "<div class=\"container\">",
+            "  <div class=\"card glass\"> <br>",
+            "    <div class=\"container\">",
+            "      <h5><a href=\"../\" class=\"backBtn\">返回</a></h5>",
+            "      <h1 class=\"text-center\">$1</h1><br>",
+            "           $0",
+            "    </div>",
+            "    <br>",
+            "  </div>",
+            "</div>",
+            "<br>",
+            "<br>",
+            "</body>",
+            "</html>"
+        ]
+    },
+    "jQuery CDN引入": {
+        "prefix": "jq",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<script src=\"https://unpkg.zhimg.com/jquery@3/dist/jquery.min.js\"></script>"
+        ]
+    },
+    "Bootstrap4 JS CDN引入": {
+        "prefix": "b4js",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<script src=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/js/bootstrap.min.js\"></script>"
+        ]
+    },
+    "页面自适应": {
+        "prefix": "viewport",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
+        ]
+    },
+    "Bootstrap4 CSS CDN引入": {
+        "prefix": "b4css",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">"
+        ]
+    },
+    "百度统计代码": {
+        "prefix": "tongji",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "  <script>",
+            "    var _hmt = _hmt || [];",
+            "    (function () {",
+            "      var hm = document.createElement(\"script\");",
+            "      hm.src = \"https://hm.baidu.com/hm.js?2a6aca6b85659d07cf5d9e5417c4a5f5\";",
+            "      var s = document.getElementsByTagName(\"script\")[0];",
+            "      s.parentNode.insertBefore(hm, s);",
+            "    })();",
+            "  </script>"
+        ]
+    },
+    "卡片": {
+        "prefix": "card",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<div class=\"card glass$2\"> <br>",
+            "  <div class=\"container\">",
+            "    <h1 class=\"text-center\">${1:标题}</h1>",
+            "    $0",
+            "  </div> <br>",
+            "</div>"
+        ]
+    },
+    "MDB CSS CDN引入": {
+        "prefix": "mdbcss",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdn.staticfile.org/mdbootstrap/4.20.0/css/mdb.min.css\">"
+        ]
+    },
+    "MDB js CDN引入": {
+        "prefix": "mdbjs",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<script src=\"https://cdn.staticfile.org/mdbootstrap/4.20.0/js/mdb.min.js\"></script>"
+        ]
+    },
+    "Cookie操作函数": {
+        "prefix": "cookie",
+        "scope": "javascript",
+        "description": "",
+        "body": [
+            "        function getCookie(cname) {\r",
+            "            var name = cname + \"=\";\r",
+            "            var ca = document.cookie.split(';');\r",
+            "            for (var i = 0; i < ca.length; i++) {\r",
+            "                var c = ca[i].trim();\r",
+            "                if (c.indexOf(name) == 0) return c.substring(name.length, c.length);\r",
+            "            }\r",
+            "            return \"\";\r",
+            "        }\r",
+            "        function delCookie(name) {\r",
+            "            document.cookie = name + \"=; expires=Thu, 01 Jan 1970 00:00:00 GMT\";\r",
+            "        }"
+        ]
+    },
+    "获取URL查询参数": {
+        "prefix": "getparam",
+        "scope": "javascript",
+        "description": "",
+        "body": [
+            "    function GetUrlByParamName(name) {",
+            "      var reg = new RegExp(\"(^|&)\" + name + \"=([^&]*)(&|$)\");",
+            "      var URL = decodeURI(window.location.search);",
+            "      var r = URL.substr(1).match(reg);",
+            "      if (r != null) {",
+            "        //decodeURI() 函数可对 encodeURI() 函数编码过的 URI 进行解码  ",
+            "        return decodeURI(r[2]);",
+            "      };",
+            "      return null;",
+            "    }"
+        ]
+    },
+    "用户欢迎语": {
+        "prefix": "x_user",
+        "scope": "javascript",
+        "description": "",
+        "body": [
+            "    if (getCookie(\"x_user\")) {",
+            "      document.getElementById(\"welcome_msg\").innerHTML = decodeURI(getCookie(\"x_user\")) + \"，欢迎您！&nbsp;&nbsp;<a href='http://xuanzhi33.top/logout.html'>退出登录</a>\"",
+            "    } else {",
+            "      document.getElementById(\"welcome_msg\").innerHTML = \"游客，您好！&nbsp;&nbsp;您可以<a href='http://xuanzhi33.top/login/signup.html'>注册</a>或<a href='http://xuanzhi33.top/login/'>登录</a>\"",
+            "    }"
+        ]
+    },
+    "获取用户名": {
+        "prefix": "xuser",
+        "scope": "javascript",
+        "description": "",
+        "body": [
+            "decodeURI(getCookie(\"x_user\"))"
+        ]
+    },
+
+    "宽按钮": {
+        "prefix": "bigbtn",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<button class=\"btn btn-${1:success} btn-block\" id=\"${2:btn}\">$3</button>"
+        ]
+    },
+    "translate.js": {
+        "prefix": "translate.js",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<script src=\"https://file.xuanzhi33.cn/files/translate.js\"></script>"
+        ]
+    },
+    "文字居中 Bootstrap": {
+        "prefix": "text-center",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "text-center"
+        ]
+    },
+    "返回按钮" : {
+        "prefix": "backbtn",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<h5><a href=\"../$1\" class=\"backBtn\">返回</a></h5>"
+        ]
+    },
+    "MDB 输入框": {
+        "prefix": "mdbinput",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<div class=\"md-form\">",
+            "  <input type=\"text\" id=\"$1\" class=\"form-control\">",
+            "  <label for=\"$1\">$2</label>",
+            "</div>"
+        ]
+    },
+    
+    "全局 JS": {
+        "prefix": "globaljs",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<script src=\"https://www.xuanzhi33.cn/js/global.js?v=1\"></script>"
+        ]
+    },
+    "浏览器检查": {
+        "prefix": "browsercheck",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<script src=\"https://www.xuanzhi33.cn/js/browserCheck.js\"></script>"
+        ]
+    },
+    "要求使用 PC Chrome": {
+        "prefix": "requirepc",
+        "scope": "javascript",
+        "description": "",
+        "body": [
+            "requirePcAndChrome();"
+        ]
+    },
+    
+    "font awesome 引入": {
+        "prefix": "fontawesome",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css\">"
+        ]
+    },
+
+    "xuanzhi33.cn": {
+        "prefix": "xuanzhi33.cn",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "https://www.xuanzhi33.cn"
+        ]
+    },
+
+    "api.xuanzhi33.cn": {
+        "prefix": "api.xuanzhi33.cn",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "https://api.xuanzhi33.cn"
+        ]
+    },
+
+    "宽链接": {
+        "prefix": "biga",
+        "scope": "html",
+        "description": "",
+        "body": [
+            "<a href=\"$1\" class=\"btn btn-${2:success} btn-block\">$3</a>"
+        ]
+    },
+
+
+    "深绿色": {
+        "prefix": "darkgreen",
+        "scope": "css",
+        "description": "",
+        "body": [
+            "#296324"
+        ]
+    },
+    "浅绿色": {
+        "prefix": "lightgreen",
+        "scope": "css",
+        "description": "",
+        "body": [
+            "#e9f1e9"
+        ]
+    }
+}

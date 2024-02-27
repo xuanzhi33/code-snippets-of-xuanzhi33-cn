@@ -1,0 +1,56 @@
+{
+  "name": "code-snippets-of-xuanzhi33-cn",
+  "displayName": "Code Snippets of xuanzhi33.cn",
+  "description": "Easily write web apps with the same styling as xuanzhi33.cn",
+  "version": "1.2.1",
+  "publisher": "xuanzhi33",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "icon.png",
+  "activationEvents": [
+    "onCommand:code-snippets-of-xuanzhi33-cn.openWebsite"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "code-snippets-of-xuanzhi33-cn.openWebsite",
+        "title": "Open xuanzhi33.cn"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/html.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/html.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.63.0",
+    "@types/glob": "^7.1.4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "14.x",
+    "eslint": "^8.1.0",
+    "glob": "^7.1.7",
+    "mocha": "^9.1.3",
+    "typescript": "^4.4.4",
+    "@vscode/test-electron": "^1.6.2"
+  }
+}
