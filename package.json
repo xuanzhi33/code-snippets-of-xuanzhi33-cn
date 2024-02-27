@@ -4,6 +4,10 @@
   "description": "Easily write web apps with the same styling as xuanzhi33.cn",
   "version": "1.2.1",
   "publisher": "xuanzhi33",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuanzhi33/code-snippets-of-xuanzhi33-cn"
+  },
   "engines": {
     "vscode": "^1.63.0"
   },
