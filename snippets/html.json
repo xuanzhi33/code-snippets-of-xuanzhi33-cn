@@ -450,5 +450,11 @@
         "body": [
             "#e9f1e9"
         ]
+    },
+    "vue.js CDN引入": {
+        "perfix": "vue",
+        "body": [
+            "<script src=\"https://unpkg.zhimg.com/vue@3/dist/vue.global.prod.js\"></script>"
+        ]
     }
 }
