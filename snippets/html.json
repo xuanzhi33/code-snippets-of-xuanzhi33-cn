@@ -396,5 +396,29 @@
         "body": [
             "<script src=\"https://unpkg.zhimg.com/vue@3/dist/vue.global.prod.js\"></script>"
         ]
+    },
+    "Random UUID": {
+        "prefix": "uuid",
+        "body": "$UUID"
+    },
+    "Random HEX": {
+        "prefix": "rhex",
+        "body": "$RANDOM_HEX"
+    },
+    "Random Integers": {
+        "prefix": "rint",
+        "body": "$RANDOM"
+    },
+    "Current Timestamp": {
+        "prefix": "cts",
+        "body": "$CURRENT_SECONDS_UNIX"
+    },
+    "YYYY-MM-DD": {
+        "prefix": "YMD",
+        "body": "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE"
+    },
+    "YYYYMMDD": {
+        "prefix": "ymd",
+        "body": "$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE"
     }
 }
