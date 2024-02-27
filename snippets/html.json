@@ -1,8 +1,6 @@
 {
     "html模板（根目录）": {
         "prefix": "mb1",
-        "scope": "html",
-        "description": "",
         "body": [
             "<!DOCTYPE html>",
             "<!--Made with ❤ by XUANZHI-->",
@@ -51,8 +49,6 @@
     },
     "html模板（站外）": {
         "prefix": "mb0",
-        "scope": "html",
-        "description": "",
         "body": [
             "<!DOCTYPE html>",
             "<!--Made with ❤ by XUANZHI-->",
@@ -101,8 +97,6 @@
     },
     "html模板（二级目录）": {
         "prefix": "mb2",
-        "scope": "html",
-        "description": "",
         "body": [
             "<!DOCTYPE html>",
             "<!--Made with ❤ by XUANZHI-->",
@@ -149,8 +143,6 @@
     },
     "html模板（三级目录）": {
         "prefix": "mb3",
-        "scope": "html",
-        "description": "",
         "body": [
             "<!DOCTYPE html>",
             "<!--Made with ❤ by XUANZHI-->",
@@ -197,40 +189,30 @@
     },
     "jQuery CDN引入": {
         "prefix": "jq",
-        "scope": "html",
-        "description": "",
         "body": [
             "<script src=\"https://unpkg.zhimg.com/jquery@3/dist/jquery.min.js\"></script>"
         ]
     },
     "Bootstrap4 JS CDN引入": {
         "prefix": "b4js",
-        "scope": "html",
-        "description": "",
         "body": [
             "<script src=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/js/bootstrap.min.js\"></script>"
         ]
     },
     "页面自适应": {
         "prefix": "viewport",
-        "scope": "html",
-        "description": "",
         "body": [
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
         ]
     },
     "Bootstrap4 CSS CDN引入": {
         "prefix": "b4css",
-        "scope": "html",
-        "description": "",
         "body": [
             "<link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">"
         ]
     },
     "百度统计代码": {
         "prefix": "tongji",
-        "scope": "html",
-        "description": "",
         "body": [
             "  <script>",
             "    var _hmt = _hmt || [];",
@@ -245,8 +227,6 @@
     },
     "卡片": {
         "prefix": "card",
-        "scope": "html",
-        "description": "",
         "body": [
             "<div class=\"card glass$2\"> <br>",
             "  <div class=\"container\">",
@@ -258,24 +238,18 @@
     },
     "MDB CSS CDN引入": {
         "prefix": "mdbcss",
-        "scope": "html",
-        "description": "",
         "body": [
             "<link rel=\"stylesheet\" href=\"https://cdn.staticfile.org/mdbootstrap/4.20.0/css/mdb.min.css\">"
         ]
     },
     "MDB js CDN引入": {
         "prefix": "mdbjs",
-        "scope": "html",
-        "description": "",
         "body": [
             "<script src=\"https://cdn.staticfile.org/mdbootstrap/4.20.0/js/mdb.min.js\"></script>"
         ]
     },
     "Cookie操作函数": {
         "prefix": "cookie",
-        "scope": "javascript",
-        "description": "",
         "body": [
             "        function getCookie(cname) {\r",
             "            var name = cname + \"=\";\r",
@@ -293,8 +267,6 @@
     },
     "获取URL查询参数": {
         "prefix": "getparam",
-        "scope": "javascript",
-        "description": "",
         "body": [
             "    function GetUrlByParamName(name) {",
             "      var reg = new RegExp(\"(^|&)\" + name + \"=([^&]*)(&|$)\");",
@@ -310,8 +282,6 @@
     },
     "用户欢迎语": {
         "prefix": "x_user",
-        "scope": "javascript",
-        "description": "",
         "body": [
             "    if (getCookie(\"x_user\")) {",
             "      document.getElementById(\"welcome_msg\").innerHTML = decodeURI(getCookie(\"x_user\")) + \"，欢迎您！&nbsp;&nbsp;<a href='http://xuanzhi33.top/logout.html'>退出登录</a>\"",
@@ -322,8 +292,6 @@
     },
     "获取用户名": {
         "prefix": "xuser",
-        "scope": "javascript",
-        "description": "",
         "body": [
             "decodeURI(getCookie(\"x_user\"))"
         ]
@@ -331,40 +299,30 @@
 
     "宽按钮": {
         "prefix": "bigbtn",
-        "scope": "html",
-        "description": "",
         "body": [
             "<button class=\"btn btn-${1:success} btn-block\" id=\"${2:btn}\">$3</button>"
         ]
     },
     "translate.js": {
         "prefix": "translate.js",
-        "scope": "html",
-        "description": "",
         "body": [
             "<script src=\"https://file.xuanzhi33.cn/files/translate.js\"></script>"
         ]
     },
     "文字居中 Bootstrap": {
         "prefix": "text-center",
-        "scope": "html",
-        "description": "",
         "body": [
             "text-center"
         ]
     },
     "返回按钮" : {
         "prefix": "backbtn",
-        "scope": "html",
-        "description": "",
         "body": [
             "<h5><a href=\"../$1\" class=\"backBtn\">返回</a></h5>"
         ]
     },
     "MDB 输入框": {
         "prefix": "mdbinput",
-        "scope": "html",
-        "description": "",
         "body": [
             "<div class=\"md-form\">",
             "  <input type=\"text\" id=\"$1\" class=\"form-control\">",
@@ -375,24 +333,18 @@
     
     "全局 JS": {
         "prefix": "globaljs",
-        "scope": "html",
-        "description": "",
         "body": [
             "<script src=\"https://www.xuanzhi33.cn/js/global.js?v=1\"></script>"
         ]
     },
     "浏览器检查": {
         "prefix": "browsercheck",
-        "scope": "html",
-        "description": "",
         "body": [
             "<script src=\"https://www.xuanzhi33.cn/js/browserCheck.js\"></script>"
         ]
     },
     "要求使用 PC Chrome": {
         "prefix": "requirepc",
-        "scope": "javascript",
-        "description": "",
         "body": [
             "requirePcAndChrome();"
         ]
@@ -400,8 +352,6 @@
     
     "font awesome 引入": {
         "prefix": "fontawesome",
-        "scope": "html",
-        "description": "",
         "body": [
             "<link rel=\"stylesheet\" href=\"https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css\">"
         ]
@@ -409,8 +359,6 @@
 
     "xuanzhi33.cn": {
         "prefix": "xuanzhi33.cn",
-        "scope": "html",
-        "description": "",
         "body": [
             "https://www.xuanzhi33.cn"
         ]
@@ -418,8 +366,6 @@
 
     "api.xuanzhi33.cn": {
         "prefix": "api.xuanzhi33.cn",
-        "scope": "html",
-        "description": "",
         "body": [
             "https://api.xuanzhi33.cn"
         ]
@@ -427,8 +373,6 @@
 
     "宽链接": {
         "prefix": "biga",
-        "scope": "html",
-        "description": "",
         "body": [
             "<a href=\"$1\" class=\"btn btn-${2:success} btn-block\">$3</a>"
         ]
@@ -437,16 +381,12 @@
 
     "深绿色": {
         "prefix": "darkgreen",
-        "scope": "css",
-        "description": "",
         "body": [
             "#296324"
         ]
     },
     "浅绿色": {
         "prefix": "lightgreen",
-        "scope": "css",
-        "description": "",
         "body": [
             "#e9f1e9"
         ]
