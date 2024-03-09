@@ -424,5 +424,9 @@
     "YYYYMMDD": {
         "prefix": "ymd",
         "body": "$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE"
+    },
+    "vue esm": {
+        "prefix": "vuem",
+        "body": "https://unpkg.zhimg.com/vue@3/dist/vue.esm-browser.prod.js"
     }
 }
