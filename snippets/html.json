@@ -427,6 +427,14 @@
     },
     "vue esm": {
         "prefix": "vuem",
-        "body": "https://unpkg.zhimg.com/vue@3/dist/vue.esm-browser.prod.js"
+        "body": "import { createApp } from \"https://unpkg.zhimg.com/vue@3/dist/vue.esm-browser.prod.js\";"
+    },
+    "ES6 模块": {
+        "prefix": "esm",
+        "body": [
+            "<script type=\"module\">",
+            "  $0",
+            "</script>"
+        ]
     }
 }
