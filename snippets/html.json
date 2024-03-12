@@ -436,5 +436,9 @@
             "  $0",
             "</script>"
         ]
+    },
+    "全局 JS v2": {
+        "prefix": "g2",
+        "body": "<script src=\"https://www.xuanzhi33.cn/js/global.v2.js\"></script>"
     }
 }
