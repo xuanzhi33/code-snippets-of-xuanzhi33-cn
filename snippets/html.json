@@ -440,5 +440,21 @@
     "全局 JS v2": {
         "prefix": "g2",
         "body": "<script src=\"https://www.xuanzhi33.cn/js/global.v2.js\"></script>"
+    },
+    "Bootstrap 表单控件": {
+        "prefix": "fc",
+        "body": "form-control"
+    },
+    "#APP": {
+        "prefix": "app",
+        "body": "id=\"app\""
+    },
+    "箭头函数": {
+        "prefix": "()_",
+        "body": [
+            "() => {",
+            "  $0",
+            "}"
+        ]
     }
 }
