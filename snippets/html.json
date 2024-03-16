@@ -455,6 +455,6 @@
     },
     "Vue.js 运行时": {
         "prefix": "vuer",
-        "body": "https://unpkg.zhimg.com/vue@3/dist/vue.runtime.esm-browser.prod.js"
+        "body": "'vue': 'https://unpkg.zhimg.com/vue@3/dist/vue.runtime.esm-browser.prod.js'"
     }
 }
