@@ -460,5 +460,9 @@
     "Vue-i18n Global": {
         "prefix": "vi18n",
         "body": "<script src=\"https://unpkg.zhimg.com/vue-i18n@9/dist/vue-i18n.global.prod.js\"></script>"
+    },
+    "Crypto-JS": {
+        "prefix": "cryptojs",
+        "body": "<script src=\"https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/crypto-js/4.1.1/crypto-js.min.js\"></script>"
     }
 }
