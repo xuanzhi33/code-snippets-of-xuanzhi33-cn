@@ -464,5 +464,9 @@
     "Crypto-JS": {
         "prefix": "cryptojs",
         "body": "<script src=\"https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/crypto-js/4.1.1/crypto-js.min.js\"></script>"
+    },
+    "Font Awesome 4 CDN": {
+        "prefix": "fa4",
+        "body": "<link rel=\"stylesheet\" href=\"https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css\">"
     }
 }
