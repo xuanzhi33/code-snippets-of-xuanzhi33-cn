@@ -468,5 +468,9 @@
     "Font Awesome 4 CDN": {
         "prefix": "fa4",
         "body": "<link rel=\"stylesheet\" href=\"https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css\">"
+    },
+    "Vue Router": {
+        "prefix": "vrouter",
+        "body": "<script src=\"https://unpkg.zhimg.com/vue-router@4/dist/vue-router.global.prod.js\"></script>"
     }
 }
