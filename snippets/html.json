@@ -474,7 +474,7 @@
         "body": "<script src=\"https://unpkg.zhimg.com/vue-router@4/dist/vue-router.global.prod.js\"></script>"
     },
     "Vue i18n $t": {
-        "prefix": "tt",
+        "prefix": "ty",
         "body": "{{ $t('$1') }}"
     },
     "Vue i18n t": {
