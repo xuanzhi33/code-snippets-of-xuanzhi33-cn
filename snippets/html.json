@@ -472,5 +472,13 @@
     "Vue Router": {
         "prefix": "vrouter",
         "body": "<script src=\"https://unpkg.zhimg.com/vue-router@4/dist/vue-router.global.prod.js\"></script>"
+    },
+    "Vue i18n $t": {
+        "prefix": "tt",
+        "body": "{{ $t('$1') }}"
+    },
+    "Vue i18n t": {
+        "prefix": "tc",
+        "body": "{{ t('$1') }}"
     }
 }
