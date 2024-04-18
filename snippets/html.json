@@ -475,7 +475,7 @@
     },
     "Vue i18n $t": {
         "prefix": "ty",
-        "body": "{{ $t('$1') }}"
+        "body": "{{ \\$t('$1') }}"
     },
     "Vue i18n t": {
         "prefix": "tc",
