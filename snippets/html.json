@@ -480,5 +480,9 @@
     "Vue i18n t": {
         "prefix": "tc",
         "body": "{{ t('$1') }}"
+    },
+    "qrcodejs": {
+        "prefix": "qrcodejs",
+        "body": "<script src=\"https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js\"></script>"
     }
 }
