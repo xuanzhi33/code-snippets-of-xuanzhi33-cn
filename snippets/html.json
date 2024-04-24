@@ -484,5 +484,45 @@
     "qrcodejs": {
         "prefix": "qrcodejs",
         "body": "<script src=\"https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js\"></script>"
+    },
+    "Vue i18n app template": {
+        "prefix": "vmb",
+        "body": [
+            "const { createApp } = Vue;",
+            "const { createI18n } = VueI18n;",
+            "import LangSwitch from \"${1|../../,../,./|}js/i18n.js\";",
+            "",
+            "const i18n = createI18n({",
+            "  locale: \"en\",",
+            "  messages: {",
+            "    en: {",
+            "      backBtn: \"Back\",",
+            "      title: \"$3\"",
+            "    },",
+            "    zh: {",
+            "      backBtn: \"返回\",",
+            "      title: \"$2\"",
+            "    }",
+            "  }",
+            "});",
+            "",
+            "const app = createApp({",
+            "  components: {",
+            "    LangSwitch",
+            "  },",
+            "  watch: {",
+            "    '$i18n.locale': {",
+            "      handler(locale) {",
+            "        document.title = this.$t('title');",
+            "      },",
+            "      immediate: true",
+            "    }",
+            "  },",
+            "  template: \"#main\"",
+            "});",
+            "",
+            "app.use(i18n);",
+            "app.mount(\"#app\");"
+        ]
     }
 }
