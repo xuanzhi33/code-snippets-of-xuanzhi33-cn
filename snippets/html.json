@@ -187,6 +187,97 @@
             "</html>"
         ]
     },
+    "HTML Template (Vue)": {
+        "prefix": "hv",
+        "body": [
+            "<!DOCTYPE html>",
+            "<!-- by xuanzhi33 -->",
+            "<html>",
+            "",
+            "<head>",
+            "  <meta charset=\"UTF-8\">",
+            "  <meta name=\"theme-color\" content=\"#e9f1e9\">",
+            "  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+            "  <title>${2:xuanzhi33.cn}</title>",
+            "  <link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "  <link href=\"${1|..,../..,.,https://www.xuanzhi33.cn|}/css/x-az.css\" rel=\"stylesheet\">",
+            "  <link rel=\"icon\" href=\"$1/favicon.ico\">",
+            "  <script>",
+            "    var _hmt = _hmt || [];",
+            "    (function () {",
+            "      var hm = document.createElement(\"script\");",
+            "      hm.src = \"https://hm.baidu.com/hm.js?2a6aca6b85659d07cf5d9e5417c4a5f5\";",
+            "      var s = document.getElementsByTagName(\"script\")[0];",
+            "      s.parentNode.insertBefore(hm, s);",
+            "    })();",
+            "  </script>",
+            "</head>",
+            "",
+            "<body>",
+            "  <br class=\"brBefore\">",
+            "  <br class=\"brBefore\">",
+            "  <div class=\"container\" id=\"app\"></div>",
+            "  <br>",
+            "  <br>",
+            "",
+            "  <template id=\"main\">",
+            "    <div class=\"card glass\"> <br>",
+            "      <div class=\"container\">",
+            "        <h5><a href=\"$1\" class=\"backBtn\">{{ $t('backBtn') }}</a></h5>",
+            "        <h1 class=\"text-center\">{{ $t('title') }}</h1>",
+            "        $0",
+            "      </div>",
+            "      <br>",
+            "    </div>",
+            "    <lang-switch></lang-switch>",
+            "  </template>",
+            "",
+            "  <script src=\"https://www.xuanzhi33.cn/js/global.v2.js\"></script>",
+            "  <script src=\"https://unpkg.zhimg.com/vue@3/dist/vue.global.prod.js\"></script>",
+            "  <script src=\"https://unpkg.zhimg.com/vue-i18n@9/dist/vue-i18n.global.prod.js\"></script>",
+            "  <script type=\"module\">",
+            "    const { createApp } = Vue;",
+            "    const { createI18n } = VueI18n;",
+            "    import LangSwitch from \"$1/js/i18n.js\";",
+            "",
+            "    const i18n = createI18n({",
+            "      locale: \"en\",",
+            "      messages: {",
+            "        en: {",
+            "          backBtn: \"Back\",",
+            "          title: \"$2\"",
+            "        },",
+            "        zh: {",
+            "          backBtn: \"返回\",",
+            "          title: \"$3\"",
+            "        }",
+            "      }",
+            "    });",
+            "",
+            "    const app = createApp({",
+            "      components: {",
+            "        LangSwitch",
+            "      },",
+            "      watch: {",
+            "        '\\$i18n.locale': {",
+            "          handler(locale) {",
+            "            document.title = this.\\$t('title');",
+            "          },",
+            "          immediate: true",
+            "        }",
+            "      },",
+            "      template: \"#main\"",
+            "    });",
+            "",
+            "    app.use(i18n);",
+            "    app.mount(\"#app\");",
+            "  </script>",
+            "</body>",
+            "",
+            "</html>"
+        ]
+    },
     "jQuery CDN引入": {
         "prefix": "jq",
         "body": [
@@ -528,5 +619,115 @@
     "QR Scanner": {
         "prefix": "qrscan",
         "body": "import QrScanner from \"https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/qr-scanner/1.4.1/qr-scanner.min.js\";"
+    },
+    "Vue Methods": {
+        "prefix": "methods",
+        "body": "methods: {$0},"
+    },
+    "Vue Data": {
+        "prefix": "vdata",
+        "body": "data() { return {$0} },"
+    },
+    "Vue Computed": {
+        "prefix": "computed",
+        "body": "computed: {$0},"
+    },
+    "Vue Watch": {
+        "prefix": "watch",
+        "body": "watch: {$0},"
+    },
+    "Vue Mounted": {
+        "prefix": "mounted",
+        "body": "mounted() {$0},"
+    },
+    "Vue Components": {
+        "prefix": "components",
+        "body": "components: {$0},"
+    },
+    "Vue Transition": {
+        "prefix": "transition",
+        "body": "<transition>$0</transition>"
+    },
+    "Vue Transition Group": {
+        "prefix": "transition-group",
+        "body": "<transition-group name=\"list\">$0</transition-group>"
+    },
+    "Vue Transition CSS": {
+        "prefix": "vtr",
+        "body": [
+            ".v-enter-active,",
+            ".v-leave-active {",
+            "  transition: all 0.3s;",
+            "}",
+            "",
+            ".v-enter-from,",
+            ".v-leave-to {",
+            "  opacity: 0;",
+            "  transform: translateY(50px);",
+            "}"
+        ]
+    },
+    "Vue Transition Group CSS": {
+        "prefix": "vtg",
+        "body": [
+            ".list-enter-active,",
+            ".list-leave-active,",
+            ".list-move {",
+            "  transition: all 0.3s;",
+            "}",
+            ".list-enter-from,",
+            ".list-leave-to {",
+            "  opacity: 0;",
+            "  transform: translateX(50px);",
+            "}",
+            ".list-leave-active {",
+            "  position: absolute;",
+            "}"
+        ]
+    },
+    "Vue I18n Messages": {
+        "prefix": "i18n",
+        "body": [
+            "i18n: {",
+            "  messages: {",
+            "    en: {",
+            "      $1: \"$0\"",
+            "    },",
+            "    zh: {",
+            "      $1: \"$2\"",
+            "    }",
+            "  }",
+            "},"
+        ]
+    },
+    "Bootstrap4 Custom File CSS": {
+        "prefix": "b4cfc",
+        "body": [
+            ".custom-file-label::after {",
+            "  border-radius: 0px;",
+            "  content: attr(data-browse);",
+            "}",
+            "",
+            ".custom-file-label {",
+            "  white-space: nowrap;",
+            "  overflow: hidden;",
+            "  border-radius: 0px;",
+            "}"
+        ]
+    },
+    "Bootstrap4 Custom File HTML": {
+        "prefix": "b4cf",
+        "body": [
+            "<div class=\"custom-file\">",
+            "  <input type=\"file\" class=\"custom-file-input\" id=\"${1:file-upload}\">",
+            "  <label class=\"custom-file-label\" for=\"$1\" :data-browse=\"$2\">",
+            "    $0",
+            "  </label>",
+            "</div>"
+        ]
+    },
+    "global.js Disable Analytics": {
+        "prefix": "dsn",
+        "body": "data-sendinfo=\"no\""
     }
 }
