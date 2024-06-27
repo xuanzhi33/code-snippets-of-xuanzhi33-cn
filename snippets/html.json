@@ -391,7 +391,25 @@
     "宽按钮": {
         "prefix": "bigbtn",
         "body": [
-            "<button class=\"btn btn-${1:success} btn-block\" id=\"${2:btn}\">$3</button>"
+            "<button class=\"btn btn-${1:success} btn-block\">$2</button>"
+        ]
+    },
+    "Bootstrap4 按钮": {
+        "prefix": "bbtn",
+        "body": [
+            "<button class=\"btn btn-${1:success}\">$2</button>"
+        ]
+    },
+    "Bootstrap4 输入框": {
+        "prefix": "binput",
+        "body": [
+            "<input type=\"text\" class=\"form-control\" placeholder=\"$1\">"
+        ]
+    },
+    "Bootstrap4 Spinner Small": {
+        "prefix": "bssm",
+        "body": [
+            "<span class=\"spinner-border spinner-border-sm\"></span>"
         ]
     },
     "translate.js": {
@@ -643,6 +661,14 @@
     "Vue Components": {
         "prefix": "components",
         "body": "components: {$0},"
+    },
+    "Vue Props": {
+        "prefix": "props",
+        "body": "props: {$0},"
+    },
+    "Vue Emits": {
+        "prefix": "emits",
+        "body": "emits: [$0],"
     },
     "Vue Transition": {
         "prefix": "transition",
