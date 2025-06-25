@@ -14,7 +14,7 @@
             "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
             "  <title>${1:xuanzhi33.cn}</title>",
             "  <!-- Bootstrap -->",
-            "  <link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "  <link href=\"https://registry.npmmirror.com/bootstrap/4.4.1/files/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
             "  <link href=\"./css/x-az.css\" rel=\"stylesheet\">",
             "  <link rel=\"icon\" href=\"./favicon.ico\">",
             "  <script>",
@@ -62,7 +62,7 @@
             "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
             "  <title>${1:xuanzhi33.cn}</title>",
             "  <!-- Bootstrap -->",
-            "  <link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "  <link href=\"https://registry.npmmirror.com/bootstrap/4.4.1/files/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
             "  <link href=\"https://www.xuanzhi33.cn/css/x-az.css\" rel=\"stylesheet\">",
             "  <link rel=\"icon\" href=\"https://www.xuanzhi33.cn/favicon.ico\">",
             "  <script>",
@@ -109,7 +109,7 @@
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
             "<title>${1:xuanzhi33.cn}</title>",
             "<!-- Bootstrap -->",
-            "<link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "<link href=\"https://registry.npmmirror.com/bootstrap/4.4.1/files/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
             "<link href=\"../css/x-az.css\" rel=\"stylesheet\">",
             "<link rel=\"icon\" href=\"../favicon.ico\">",
             "<script>",
@@ -155,7 +155,7 @@
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
             "<title>${1:xuanzhi33.cn}</title>",
             "<!-- Bootstrap -->",
-            "<link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "<link href=\"https://registry.npmmirror.com/bootstrap/4.4.1/files/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
             "<link href=\"../../css/x-az.css\" rel=\"stylesheet\">",
             "<link rel=\"icon\" href=\"../../favicon.ico\">",
             "<script>",
@@ -200,7 +200,7 @@
             "  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
             "  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
             "  <title>${2:xuanzhi33.cn}</title>",
-            "  <link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
+            "  <link href=\"https://registry.npmmirror.com/bootstrap/4.4.1/files/dist/css/bootstrap.min.css\" rel=\"stylesheet\">",
             "  <link href=\"${1|..,../..,.,https://www.xuanzhi33.cn|}/css/x-az.css\" rel=\"stylesheet\">",
             "  <link rel=\"icon\" href=\"$1/favicon.ico\">",
             "  <script>",
@@ -234,8 +234,8 @@
             "  </template>",
             "",
             "  <script src=\"https://www.xuanzhi33.cn/js/global.v2.js\"></script>",
-            "  <script src=\"https://unpkg.zhimg.com/vue@3/dist/vue.global.prod.js\"></script>",
-            "  <script src=\"https://unpkg.zhimg.com/vue-i18n@9/dist/vue-i18n.global.prod.js\"></script>",
+            "  <script src=\"https://registry.npmmirror.com/vue/3/files/dist/vue.global.prod.js\"></script>",
+            "  <script src=\"https://registry.npmmirror.com/vue-i18n/9/files/dist/vue-i18n.global.prod.js\"></script>",
             "  <script type=\"module\">",
             "    const { createApp } = Vue;",
             "    const { createI18n } = VueI18n;",
@@ -281,13 +281,13 @@
     "jQuery CDN引入": {
         "prefix": "jq",
         "body": [
-            "<script src=\"https://unpkg.zhimg.com/jquery@3/dist/jquery.min.js\"></script>"
+            "<script src=\"https://registry.npmmirror.com/jquery/3/files/dist/jquery.min.js\"></script>"
         ]
     },
     "Bootstrap4 JS CDN引入": {
         "prefix": "b4js",
         "body": [
-            "<script src=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/js/bootstrap.min.js\"></script>"
+            "<script src=\"https://registry.npmmirror.com/bootstrap/4.4.1/files/dist/js/bootstrap.min.js\"></script>"
         ]
     },
     "页面自适应": {
@@ -299,7 +299,7 @@
     "Bootstrap4 CSS CDN引入": {
         "prefix": "b4css",
         "body": [
-            "<link href=\"https://unpkg.zhimg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css\" rel=\"stylesheet\">"
+            "<link href=\"https://registry.npmmirror.com/bootstrap/4.4.1/files/dist/css/bootstrap.min.css\" rel=\"stylesheet\">"
         ]
     },
     "百度统计代码": {
@@ -503,7 +503,7 @@
     "vue.js CDN引入": {
         "prefix": "vue",
         "body": [
-            "<script src=\"https://unpkg.zhimg.com/vue@3/dist/vue.global.prod.js\"></script>"
+            "<script src=\"https://registry.npmmirror.com/vue/3/files/dist/vue.global.prod.js\"></script>"
         ]
     },
     "Random UUID": {
@@ -568,7 +568,7 @@
     },
     "Vue-i18n Global": {
         "prefix": "vi18n",
-        "body": "<script src=\"https://unpkg.zhimg.com/vue-i18n@9/dist/vue-i18n.global.prod.js\"></script>"
+        "body": "<script src=\"https://registry.npmmirror.com/vue-i18n/9/files/dist/vue-i18n.global.prod.js\"></script>"
     },
     "Crypto-JS": {
         "prefix": "cryptojs",
@@ -580,7 +580,7 @@
     },
     "Vue Router": {
         "prefix": "vrouter",
-        "body": "<script src=\"https://unpkg.zhimg.com/vue-router@4/dist/vue-router.global.prod.js\"></script>"
+        "body": "<script src=\"https://registry.npmmirror.com/vue-router/4/files/dist/vue-router.global.prod.js\"></script>"
     },
     "Vue i18n $t": {
         "prefix": "ty",
